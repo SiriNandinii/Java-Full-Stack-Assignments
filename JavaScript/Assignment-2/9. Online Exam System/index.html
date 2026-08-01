@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam System</title>
+</head>
+<body>
+
+    <h2>Online Exam System</h2>
+
+    <form id="exam">
+
+        <p>1. Capital of India?</p>
+        <input type="radio" name="q1" value="Delhi"> Delhi
+        <input type="radio" name="q1" value="Mumbai"> Mumbai
+
+        <p>2. 5 + 5 = ?</p>
+        <input type="radio" name="q2" value="10"> 10
+        <input type="radio" name="q2" value="12"> 12
+
+        <p>3. HTML stands for?</p>
+        <input type="radio" name="q3" value="HyperText Markup Language"> HyperText Markup Language
+        <input type="radio" name="q3" value="HighText Machine Language"> HighText Machine Language
+
+        <p>4. CSS is used for?</p>
+        <input type="radio" name="q4" value="Styling"> Styling
+        <input type="radio" name="q4" value="Programming"> Programming
+
+        <p>5. JavaScript is a?</p>
+        <input type="radio" name="q5" value="Programming Language"> Programming Language
+        <input type="radio" name="q5" value="Database"> Database
+
+        <br><br>
+
+        <button type="button" onclick="submitExam()">Submit</button>
+
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
